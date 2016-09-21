@@ -1,0 +1,8 @@
+SELECT [PROJECT_NAME]
+       ,[DOMAIN_NAME]
+       ,[DB_NAME]
+       ,[PHYSICAL_DIRECTORY]
+       ,[DBSERVER_NAME]
+       ,[PR_IS_ACTIVE]  
+       ,[DESCRIPTION]
+       FROM [qcsiteadmin_12_2_db].[td].[PROJECTS]

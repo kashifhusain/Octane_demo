@@ -1,0 +1,8 @@
+Function TestPlan_ActionCanExecute(ActionName)    
+
+' Initialise the failed /passed date field if the test is copied and pasted
+if ActionName = "TestPlanTree.Paste" then
+Test_Fields.Field("TS_USER_01").Value = ""
+'Test_Fields.Field("TS_USER_01").IsNull
+msgbox"value_updated"
+End if

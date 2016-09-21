@@ -1,0 +1,1 @@
+You are attempting to connect to an ALM Platform or Quality Center server that is not compatible with the HP ALM Loader installed on your machine.
